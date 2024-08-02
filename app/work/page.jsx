@@ -36,8 +36,8 @@ const WorkPage = () => {
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold mb-4">My Work</h1>
           <p className="text-lg mb-8">
-            Here are some of the projects I've worked on recently. Click on any
-            project to learn more about it.
+            {`Here are some of the projects I' ve worked on recently. Click on any
+            project to learn more about it.`}
           </p>
         </div>
 
