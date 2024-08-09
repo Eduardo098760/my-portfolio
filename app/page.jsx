@@ -1,12 +1,14 @@
+"use client";
 import Photo from "@/components/Photo";
 import SocialsMidia from "@/components/SocialsMidia";
 import Stats from "@/components/Stats";
 import { Button } from "@/components/ui/button";
 import { FiDownload } from "react-icons/fi";
+import { motion } from "framer-motion";
 
 const Home = () => {
   return (
-    <section className="h-full">
+    <section className="min-h-screen bg-gradient-to-b from-gray-800 to-black p-6">
       <div className="container mx-auto h-full">
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pb-5">
           <div className="text-center xl:text-left order-2 xl:order-none">
@@ -16,7 +18,7 @@ const Home = () => {
               <span className="text-accent">Eduardo Santos</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-              {` I'm a passionate software developer with a background in computer
+              {` I'm a passionate  software developer with a background in computer
               science. I love building products that make people's lives easier.`}
             </p>
             <div className="flex flex-col xl:flex-row items-center gap-8">
